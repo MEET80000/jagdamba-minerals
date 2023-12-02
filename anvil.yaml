@@ -3,6 +3,7 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: null
 package_name: jagdamba_minerals
 allow_embedding: false
 name: jagdamba minerals
@@ -11,15 +12,5 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {title: sign up to work with jagdamba minerals, description: join with jagdamba minerals,
   logo_img: 'asset:jm.png'}
 startup_form: Form1
-db_schema:
-  table_1:
-    client: none
-    server: full
-    columns: []
-    title: Table 1
-  table_3:
-    client: none
-    server: full
-    columns: []
-    title: Table 3
+db_schema: {}
 renamed: true
